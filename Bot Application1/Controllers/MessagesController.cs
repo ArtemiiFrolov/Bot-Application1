@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.ProjectOxford.Linguistics;
+using Microsoft.ProjectOxford.Linguistics.Contract;
+using System;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -8,6 +10,7 @@ using System.Web.Http.Description;
 using Microsoft.Bot.Connector;
 using Newtonsoft.Json;
 using System.Text;
+
 
 namespace Bot_Application1
 {
@@ -21,17 +24,38 @@ namespace Bot_Application1
         public async Task<HttpResponseMessage> Post([FromBody]Activity activity)
         {
 
-            
 
+     
             if (activity.Type == ActivityTypes.Message)
             {
                 ConnectorClient connector = new ConnectorClient(new Uri(activity.ServiceUrl));
-                // calculate something for us to return
-             //   int length = (activity.Text ?? string.Empty).Length;
-                var rep = await Reply(activity.Text);
+
+                var State = activity.GetStateClient();
+
+                var UserData = await State.BotState.GetUserDataAsync(activity.ChannelId, activity.From.Id);
+                var x = UserData.GetProperty<string>("persName");
+                if (x==null)
+                { var rep = await Reply(activity.Text);
+                    Activity reply = activity.CreateReply(rep);
+                    UserData.SetProperty<string>("persName", "1");
+                    await State.BotState.SetUserDataAsync(activity.ChannelId, activity.From.Id, UserData);
+                    await connector.Conversations.ReplyToActivityAsync(reply);
+                }
+                else if (x == "1") {
+                    UserData.SetProperty<string>("persName", activity.Text);
+                    await State.BotState.SetUserDataAsync(activity.ChannelId, activity.From.Id, UserData);
+                    Activity reply = activity.CreateReply("Done, saved your name");
+                    await connector.Conversations.ReplyToActivityAsync(reply);
+                }
+
+                    else { var rep = await Reply(activity.Text,x);
+                      Activity reply = activity.CreateReply(rep);
+                      await connector.Conversations.ReplyToActivityAsync(reply);
+                }
+               
                 // return our reply to the user
-                Activity reply = activity.CreateReply(rep);
-                await connector.Conversations.ReplyToActivityAsync(reply);
+               
+                
             }
             else
             {
@@ -45,7 +69,20 @@ namespace Bot_Application1
 
             string omsg="";
             var a = msg.ToLower().Split(' ');
-            if (a.IsPresent("hello")) {omsg = "Hello, nice to see you"; }
+         
+            if (a.IsPresent("hello")|| a.IsPresent("hi")) {omsg = "Hello, what's your name?";}
+            else { omsg = "Cultured people greet first. Hello, what's your name?"; }
+            return omsg;
+            
+        }
+        async Task<string> Reply(string msg, string msg2)
+        {
+            string omsg = "";
+           
+                var a = msg.ToLower().Split(' ');
+
+                if (a.IsPresent("hello") || a.IsPresent("hi")) { omsg = "Hello, " + msg2; }
+             
             return omsg;
 
         }

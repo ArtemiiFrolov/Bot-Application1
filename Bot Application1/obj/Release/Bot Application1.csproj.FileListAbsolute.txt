@@ -1,0 +1,39 @@
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\Bot Application1.dll.config
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\Bot Application1.dll
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\Bot Application1.pdb
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\Autofac.dll
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\Chronic.dll
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\Microsoft.Bot.Builder.dll
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\Microsoft.Bot.Connector.dll
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\Microsoft.Rest.ClientRuntime.dll
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\Microsoft.WindowsAzure.Configuration.dll
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\Newtonsoft.Json.dll
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\System.IdentityModel.Tokens.Jwt.dll
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\System.Net.Http.Formatting.dll
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\System.Web.Http.dll
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\System.Web.Http.WebHost.dll
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\Autofac.xml
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\Microsoft.Bot.Builder.xml
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\Microsoft.Bot.Connector.xml
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\Microsoft.Rest.ClientRuntime.xml
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\Microsoft.WindowsAzure.Configuration.xml
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\Newtonsoft.Json.xml
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\System.IdentityModel.Tokens.Jwt.pdb
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\System.IdentityModel.Tokens.Jwt.xml
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\System.Net.Http.Formatting.xml
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\System.Web.Http.xml
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\System.Web.Http.WebHost.xml
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\ar\Microsoft.Bot.Builder.resources.dll
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\en\Microsoft.Bot.Builder.resources.dll
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\es\Microsoft.Bot.Builder.resources.dll
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\fa\Microsoft.Bot.Builder.resources.dll
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\fr\Microsoft.Bot.Builder.resources.dll
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\ja\Microsoft.Bot.Builder.resources.dll
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\ru\Microsoft.Bot.Builder.resources.dll
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+E:\My programs\Practice\Bot Application1\Bot Application1\obj\Release\Bot Application1.csprojResolveAssemblyReference.cache
+E:\My programs\Practice\Bot Application1\Bot Application1\obj\Release\Bot Application1.dll
+E:\My programs\Practice\Bot Application1\Bot Application1\obj\Release\Bot Application1.pdb

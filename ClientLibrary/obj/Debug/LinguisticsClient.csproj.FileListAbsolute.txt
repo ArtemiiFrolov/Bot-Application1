@@ -1,0 +1,14 @@
+E:\My programs\DevSchool\mockingBot\ClientLibrary\bin\Debug\Microsoft.ProjectOxford.Linguistics.dll
+E:\My programs\DevSchool\mockingBot\ClientLibrary\bin\Debug\Microsoft.ProjectOxford.Linguistics.pdb
+E:\My programs\DevSchool\mockingBot\ClientLibrary\bin\Debug\Newtonsoft.Json.dll
+E:\My programs\DevSchool\mockingBot\ClientLibrary\bin\Debug\Newtonsoft.Json.xml
+E:\My programs\DevSchool\mockingBot\ClientLibrary\obj\Debug\LinguisticsClient.csprojResolveAssemblyReference.cache
+E:\My programs\DevSchool\mockingBot\ClientLibrary\obj\Debug\Microsoft.ProjectOxford.Linguistics.dll
+E:\My programs\DevSchool\mockingBot\ClientLibrary\obj\Debug\Microsoft.ProjectOxford.Linguistics.pdb
+E:\My programs\Practice\Bot Application1\ClientLibrary\bin\Debug\Microsoft.ProjectOxford.Linguistics.dll
+E:\My programs\Practice\Bot Application1\ClientLibrary\bin\Debug\Microsoft.ProjectOxford.Linguistics.pdb
+E:\My programs\Practice\Bot Application1\ClientLibrary\bin\Debug\Newtonsoft.Json.dll
+E:\My programs\Practice\Bot Application1\ClientLibrary\bin\Debug\Newtonsoft.Json.xml
+E:\My programs\Practice\Bot Application1\ClientLibrary\obj\Debug\LinguisticsClient.csprojResolveAssemblyReference.cache
+E:\My programs\Practice\Bot Application1\ClientLibrary\obj\Debug\Microsoft.ProjectOxford.Linguistics.dll
+E:\My programs\Practice\Bot Application1\ClientLibrary\obj\Debug\Microsoft.ProjectOxford.Linguistics.pdb
