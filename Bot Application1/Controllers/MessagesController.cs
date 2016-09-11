@@ -82,6 +82,17 @@ namespace Bot_Application1
                 var a = msg.ToLower().Split(' ');
 
                 if (a.IsPresent("hello") || a.IsPresent("hi")) { omsg = "Hello, " + msg2; }
+                else
+            {
+                var Client = new LinguisticsClient("96fc9641c5934292be66b62d51fdde5c");
+                var Analyzers = await Client.ListAnalyzersAsync();
+                var Req = new AnalyzeTextRequest();
+                Req.Language = "en";
+                Req.Text = msg;
+                Req.AnalyzerIds = new Guid[] { Analyzers[0].Id };
+                var Res = await Client.AnalyzeTextAsync(Req);
+                omsg =msg2+", I found this"+ $"{Res[0].Result.ToString()}";
+            }
              
             return omsg;
 

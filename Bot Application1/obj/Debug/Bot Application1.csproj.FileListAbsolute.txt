@@ -37,3 +37,5 @@ E:\My programs\Practice\Bot Application1\Bot Application1\bin\zh-hans\Microsoft.
 E:\My programs\Practice\Bot Application1\Bot Application1\obj\Debug\Bot Application1.csprojResolveAssemblyReference.cache
 E:\My programs\Practice\Bot Application1\Bot Application1\obj\Debug\Bot Application1.dll
 E:\My programs\Practice\Bot Application1\Bot Application1\obj\Debug\Bot Application1.pdb
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\Microsoft.ProjectOxford.Linguistics.dll
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\Microsoft.ProjectOxford.Linguistics.pdb
