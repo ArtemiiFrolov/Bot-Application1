@@ -1,0 +1,7 @@
+E:\My programs\Practice\Bot Application1\ClientLibrary\bin\Release\Microsoft.ProjectOxford.Linguistics.dll
+E:\My programs\Practice\Bot Application1\ClientLibrary\bin\Release\Microsoft.ProjectOxford.Linguistics.pdb
+E:\My programs\Practice\Bot Application1\ClientLibrary\bin\Release\Newtonsoft.Json.dll
+E:\My programs\Practice\Bot Application1\ClientLibrary\bin\Release\Newtonsoft.Json.xml
+E:\My programs\Practice\Bot Application1\ClientLibrary\obj\Release\LinguisticsClient.csprojResolveAssemblyReference.cache
+E:\My programs\Practice\Bot Application1\ClientLibrary\obj\Release\Microsoft.ProjectOxford.Linguistics.dll
+E:\My programs\Practice\Bot Application1\ClientLibrary\obj\Release\Microsoft.ProjectOxford.Linguistics.pdb

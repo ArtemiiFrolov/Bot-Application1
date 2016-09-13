@@ -37,3 +37,8 @@ E:\My programs\Practice\Bot Application1\Bot Application1\bin\zh-hans\Microsoft.
 E:\My programs\Practice\Bot Application1\Bot Application1\obj\Release\Bot Application1.csprojResolveAssemblyReference.cache
 E:\My programs\Practice\Bot Application1\Bot Application1\obj\Release\Bot Application1.dll
 E:\My programs\Practice\Bot Application1\Bot Application1\obj\Release\Bot Application1.pdb
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\Data\wap.txt
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\Microsoft.ProjectOxford.Linguistics.dll
+E:\My programs\Practice\Bot Application1\Bot Application1\bin\Microsoft.ProjectOxford.Linguistics.pdb
+E:\My programs\Practice\Bot Application1\Bot Application1\obj\Release\Bot_Application1.Properties.Resources.resources
+E:\My programs\Practice\Bot Application1\Bot Application1\obj\Release\Bot Application1.csproj.GenerateResource.Cache
